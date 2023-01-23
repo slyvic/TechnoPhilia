@@ -1,0 +1,88 @@
+.signin-signup-doctor-meddata{
+    align-items: center;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-width{
+    width:80vw;
+    background-color: var(--violet);
+}
+
+.wrap{
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:2rem;
+}
+
+.color-dark{
+    color:var(--main-color) !important;
+    text-transform: uppercase   ;
+}
+
+.med-data-button{
+    width:100rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about{
+    margin: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:3rem;
+ }
+ 
+ .about .content{
+    text-align: center;
+    padding:1rem;
+    width:80vw;
+    flex-wrap: wrap;
+    border:0.3rem solid var(--main-color) !important;
+    border-radius: 2rem;
+ }
+ 
+ .about .content h3{
+    font-size: 3rem;
+    color:var(--black);
+ }
+ 
+ .about .content p{
+    font-size: 1.5rem;
+    color:var(--light-black);
+    line-height: 2;
+    padding:1rem 0;
+ }
+ 
+ .about .content .icons-container{
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    align-items: flex-end;
+ }
+ 
+ .about .content .icons-container .icons{
+    background: var(--light-bg);
+    padding:2rem;
+    flex:1 1 16rem;
+    border-radius: 1rem;
+ }
+ 
+ .about .content .icons-container .icons i{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color:var(--main-color);
+ }
+ 
+ .about .content .icons-container .icons span{
+    font-size: 1.5rem;
+    color:var(--light-black);
+    display:block;
+ }

@@ -1,0 +1,74 @@
+.timeline{
+    width: 50%;
+    padding: 50px 0 20px;
+    margin: 0 0 0 5px;
+    float: right;
+}
+.timeline{
+    background: #fff;
+    padding: 20px 20px 30px;
+    margin:2rem;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2) ;
+    display: block;
+    position: relative;
+}
+
+.titleX{
+    color: #555;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.description{
+    color: #999;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.timeline-year{
+    background-color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+}
+
+.timeline:nth-child(even){
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+.timeline:nth-child(even) .titleX{ margin: 0 40px 15px 0; }
+
+.timeline:nth-child(4n+1) .timeline{ border:1px solid greenyellow  !important; }
+.timeline:nth-child(4n+1) .titleX{ background-color: greenyellow;padding:2rem;border-radius:1rem; }
+.timeline:nth-child(4n+1) .timeline-year{ color: greenyellow; }
+.timeline:nth-child(4n+2) .timeline{ border-color: rgb(228, 13, 13); }
+.timeline:nth-child(4n+2) .titleX{ background-color: rgb(228, 13, 13);padding:2rem;border-radius:1rem; }
+.timeline:nth-child(4n+2) .timeline{ color: rgb(228, 13, 13); }
+.timeline:nth-child(4n+2) .timeline-year{ color: rgb(228, 13, 13); }
+.timeline:nth-child(4n+3) .timeline-year{ color:rgb(228, 13, 13); }
+.timeline:nth-child(4n+3) .timeline{ border-color: #FE7C02; }
+.timeline:nth-child(4n+3) .titleX{ background-color: #FE7C02;padding:2rem;border-radius:1rem; }
+.timeline:nth-child(4n+3) .timeline-year{ color: #FE7C02; }
+.timeline:nth-child(4n+4) .timeline{ border-color: #02A7D5; }
+.timeline:nth-child(4n+4) .titleX{ background-color: #02A7D5;padding:2rem;border-radius:1rem; }
+.timeline:nth-child(4n+4) .timeline-year{ color: #02A7D5; }
+
+@media screen and (max-width:767px){
+    .timeline,
+    .timeline:nth-child(even){
+        width: 100%;
+        margin: 0 0 15px 0;
+    }
+    .timeline{ padding: 50px 20px 30px; }
+    
+    .timeline:nth-child(even){ right: 15px; }
+    .titleX,
+    .timeline:nth-child(even) .titleX{
+        font-size: 20px;
+        margin: 0 0 7px;
+    }
+    .timeline-year{ font-size: 35px; }
+}

@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+input {
+    font-family: "Poppins", sans-serif;
+    padding: 0 2rem;
+  }
+
+  .bg-img-doctor{
+    padding-top: 5rem;
+    background:url('../../images/Medical\ prescription-amico.svg');
+    background-repeat: no-repeat;
+    backdrop-filter:initial;
+    margin-top: 7rem;
+  }
+
+  .signin-signup {
+    background-color: var(--blue);
+    border-radius: 3rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+    padding:1.5rem;
+    justify-content: center;
+  }
+  
+  .sign-in-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .sign-in-form {
+    z-index: 2;
+  }
+  
+.login-page{
+    display:flex;
+    align-items: center;
+    height:100vh;
+    justify-content: space-between;
+}
+.title {  
+    background-color: var(--blue);
+    color: white;
+    padding:2%;
+    border-radius:20px;
+    margin:10px;
+}
+
+.title h1{
+    font-size:5.5rem;
+    text-transform:uppercase;
+    font-weight: 500;
+}
+  
+.input-field {
+    max-width: 380px;
+    width: 100%;
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    height: 55px;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0 0.4rem;
+    position: relative;
+}
+  
+.input-field i {
+    text-align: center;
+    line-height: 55px;
+    color: #acacac;
+    transition: 0.5s;
+    font-size: 1.1rem;
+}
+  
+.input-field input {
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #333;
+}
+
+.button-form{
+    height:3.5rem;
+    width: 15rem;
+    background:#f0f0f0;
+    color:var(--black);
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    border-radius: .5rem;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    margin:1rem 0;
+  }
+  
+.input-field input::placeholder {
+    color: #aaa;
+    font-weight: 500;
+}
+
+.signup-link{
+  font-size: 1.5rem;
+}
+
+  @media (max-width: 870px) {
+    .signin-signup {
+      width: 100%;
+    }
+    
+    .login-page{
+        display:flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+    }
+
+    .title h1{
+        font-size:4.5rem;
+        text-align: center;
+    }
+  }
+  
+  @media (max-width: 570px) {
+    .sign-in-form {
+      padding: 0 1.5rem;
+    }
+  }

@@ -1,0 +1,152 @@
+
+.page-content {
+	width: 100%;
+	margin:  0 auto;
+	display: flex;
+    flex-direction: column;
+    align-items: center;  
+    background-color: #e8f4f8;
+}
+
+.form-v1-content   {
+	background:#1382fd;
+	width:85vw;
+	box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.85);
+	border-radius:5rem;
+	margin: 2% 0;
+}
+
+.form-section1{
+    background-color: #B8D9FE;
+    border-radius: 5rem;
+    z-index: 2;
+}
+
+.form-section2{
+    background-color:#1382fd;
+    border-radius: 5rem;
+    position: relative;
+    top:-2rem;
+    z-index:1;
+}
+
+.btn-patient{
+    background-color: #B8D9FE;
+    color:black;
+}
+
+.btn-patient-row{
+    align-items: center;
+}
+
+.form-register{
+    display: flex;
+    align-items:stretch;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-centered-p{
+      text-align: center;
+      font-size: 1.3rem;
+      margin:1.2rem 0;
+}
+
+.text-centered-login{
+    text-align: center;
+    font-size: 3rem;
+    margin:3rem;
+    color:#37474F;
+}
+
+.heading-light{
+    color: #B8D9FE !important;
+}
+.inner,.inner2{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.wizard-header{
+    flex-basis: 50%;
+}
+
+.details{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inner .form-row {
+    display: flex;
+    flex-direction: column;
+    margin:1.5rem;
+}
+.inner .form-row .form-holder {
+    justify-content: center;
+    padding: 0.2rem;
+}
+
+.inner .form-row .form-holder legend {
+	font-size: 2rem;
+	color:black;
+}
+.inner .form-row .form-holder input,
+.inner .form-row .form-holder select {
+    background-color:#1382fd;
+    font-size: 1.5rem;
+    color: #f0f0f1;
+}
+
+.inner .form-row .form-holder input::placeholder{
+    color:#e6e6e7;
+}
+
+.inner2 .form-row {
+    display: flex;
+    flex-direction: column;
+    margin:1.5rem;
+}
+.inner22 .form-row .form-holder {
+    justify-content: center;
+    padding: 0.2rem;
+}
+
+.inner2 .form-row .form-holder legend {
+	font-size: 2rem;
+	color: #B8D9FE;
+}
+.inner2 .form-row .form-holder input,
+.inner2 .form-row .form-holder select {
+    background-color: #B8D9FE;
+    font-size: 1.5rem;
+}
+
+.inner2 .form-row .form-holder input::placeholder{
+    color:#283f4a;
+}
+
+.inner2 .form-row .form-holder input {
+    color: #283f4a;
+}
+
+@media (max-width:1024px){
+    .text-centered-p{
+        font-size: 1rem;
+    }
+}
+@media (max-width:615px){
+
+    .form-section2{
+        top:0;
+    }
+
+    .inner,.inner2{
+        flex-direction: column;
+    }
+    .form-v1-content{
+        margin:5% 0;
+    }
+}
+

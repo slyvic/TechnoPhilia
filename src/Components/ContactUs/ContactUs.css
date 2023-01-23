@@ -1,0 +1,92 @@
+.header-contact-us{
+    background-color:#d9e5ff;
+}
+
+.contact .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 3rem;
+  }
+
+  .contact{
+      padding:10rem;
+  }
+  
+  .contact .row .map {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 42rem;
+            flex: 1 1 42rem;
+    width: 100%;
+  }
+  
+  .contact .row form {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 42rem;
+            flex: 1 1 42rem;
+    padding: 2rem;
+    border: 0.2rem solid #334;
+  }
+  
+  .contact .row form h3 {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color: #334;
+    padding-bottom: 1rem;
+  }
+  
+  .contact .row form .inputBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .contact .row form .inputBox input {
+    width: 49%;
+  }
+  
+  .contact .row form .inputBox input, .contact .row form textarea {
+    padding: 1.2rem 1.4rem;
+    font-size: 1.6rem;
+    color: #fff;
+    background: #334;
+    margin: .7rem 0;
+    border: 0.2rem solid black;
+    border-radius:1.2rem;  
+  }
+  
+  .alert-success{
+    width:100%;
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 1.2rem;
+  }
+  .contact .row form textarea {
+    width: 100%;
+    height: 25rem;
+    resize: none;
+  }
+
+@media (max-width:700px){
+  .contact{
+    padding:10rem 5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .contact .row form .inputBox input {
+      width: 100%;
+    }
+
+    .contact{
+      padding:10rem 1rem;
+    }
+}

@@ -1,0 +1,24 @@
+.home{  
+  background-color: #e8f4f8;
+}
+
+.home .content h1{
+    font-size: 5rem;
+    color:var(--black);
+}
+  
+.home .content h1 span{
+    color:var(--blue);
+}
+  
+.home .content h3{
+    font-size: 4rem;
+    color:var(--black);
+}
+
+#buttons{
+    display:flex;
+    gap:2rem;
+    justify-content:center;
+    align-items: center;
+}

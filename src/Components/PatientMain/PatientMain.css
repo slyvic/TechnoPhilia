@@ -1,0 +1,202 @@
+.patient-main{
+    overflow: hidden;
+    scroll-behavior: smooth;
+    padding:5rem 2rem;
+}
+  
+.logout{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.landing{
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    z-index: 2;
+}
+
+.landingText{
+    margin:5rem;
+}
+
+.landingText h1 {
+    font-size: 5rem;
+    color: var(--black);
+    opacity:0.8;
+}
+
+.landingText span {
+    color: var(--dark-blue);
+}
+
+.landingText h3{
+    margin: 6px !important;
+    font-size: 20px;
+    opacity: 0.5;
+    line-height: 30px;
+    color:var(--gray2)
+}
+
+/* INFO_SECTION CSS */
+
+.infoHeader{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.infoCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:3rem;
+}
+
+.infoCards .card{
+    background: #fff;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.09), 0 10px 10px rgba(0,0,0,0.09)
+}
+
+.cardContent{
+    padding: 0 20px;
+}
+
+.cardContent h2{
+    font-weight: 600;
+}
+
+.cardContent p{
+    line-height:2rem;
+    opacity: 0.8;
+    text-transform: none !important;
+}
+
+
+.cardContent .cardBtn{
+    position: absolute;
+    right: 20px;
+    padding: 10px;
+    background-color: #ededed;
+    width: 25px;
+    height: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.2s;
+}
+
+.cardContent .cardBtn:hover{
+  background-color: #2f8be0;
+}
+
+.cardContent .cardBtn .cardIcon{
+    top:0px;
+    left:0px;
+    width: 16px;
+}
+
+
+@media only screen and (max-width: 720px){
+
+.patient-main{
+    padding:0.5rem;
+}
+
+/* LANDING PAGE */
+
+.landing{
+    flex-direction: column;
+    height: 750px;
+    align-items: center;
+    justify-content: center;
+    text-align: center
+}
+
+.landingText h1{
+    font-size: 6vw;
+    margin: 0 !important;
+}
+
+.landingText h3{
+    font-size: 16px;
+}
+
+.landingText .btn{
+    margin: 0 auto;
+}
+
+.landingText .btn a{
+    font-size: 3vw;
+}
+
+.landingImage img{
+    width: 52vw;
+    margin-bottom: 20px;
+}
+
+
+/* ABOUT */
+
+.about{
+    height: auto;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutText{
+    padding: 0 50px;
+    height: 100px;
+}
+
+.aboutText h1{
+    left: 40px;
+    font-size: 5vw;
+}
+
+.aboutText img{
+    width: 16vw;
+    top: 10px;
+    left: -30px;
+}
+
+.aboutList{
+    width: 75%;
+}
+
+ol li{
+    font-size: 26px;
+}
+
+li p{
+    font-size: 14px;
+}
+
+.infoSection{
+    height: auto;
+}
+
+.infoHeader{
+    text-align: center;
+}
+
+.infoCards{
+    display: flex;
+    flex-direction: column;
+    padding:2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.infoCards .card{
+    margin-bottom: 60px;
+}
+
+}
